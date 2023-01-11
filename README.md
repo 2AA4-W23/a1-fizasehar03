@@ -23,7 +23,7 @@ Remark: **We are assuming here you are using a _real_ shell (e.g., anything but 
  * Status: 
    * Pending (P), Started (S), Blocked (B), Done (D)
  * Definition of Done (DoD):
-   * < Your DoD goes here >
+   * The step complies and executes successfully and previous step still works.
 
 ### Backlog 
 
@@ -32,9 +32,8 @@ Remark: **We are assuming here you are using a _real_ shell (e.g., anything but 
 | x   | F01 | Roll a dice |  S | 01/01/23 |  |
 | x   | F02 | Roll 8 dices |  B (F01) | 01/01/23 |  |
 | x   | F03 |  Two players in a game | P  |   |
-| x   | F04 | 42 games as command-line arg.  |  P  |   |
-| x   | F05 | Player keeping random dice at their turn | B (F02) | | 
-| x   | F06 | 1000 points means a player wins | P | | 
-| x   | F07 | Track all points per game in order to know which player won| P | |
-| x   | F08 | 3 skulls causes player to loose all points and round ends | P) | | 
-| x   | F09 | percentage of wins for each player | B (F07) | | 
+| x   | F04 | Player keeping random dice at their turn | B (F02) | | 
+| x   | F05 | 1000 points means a player wins | P | | 
+| x   | F06 | Track all points per game in order to know which player won| P | |
+| x   | F07 | 3 skulls causes player to loose all points and round ends | P) | | 
+| x   | F08 | percentage of wins for each player | B (F07) | | 
