@@ -29,10 +29,12 @@ Remark: **We are assuming here you are using a _real_ shell (e.g., anything but 
 
 | MVP? | Id  | Feature  | Status  |  Started  | Delivered |
 | :-:  |:-:  |---       | :-:     | :-:       | :-:       |
-| x   | F01 | Roll 8 dices |  S | 01/01/23 |  |
-| x   | F02 |  Two players  |  B (F01) |   |
-| x   | F03 | 42 games as command-line arg.  |  P  |   |
-| x   | F04 | Player keeping random dice at their turn | B (F02) | | 
-| x   | F05 | Track all points per game in order to know which player won| B (F04) | |
-| x   | F06 | 3 skulls causes player to loose all points and round ends | B (F04) | | 
-| x   | F07 | percentage of wins for each player | B (F04) | | 
+| x   | F01 | Roll a dice |  S | 01/01/23 |  |
+| x   | F02 | Roll 8 dices |  S | 01/01/23 |  |
+| x   | F03 |  Two players in a game |  B (F01) |   |
+| x   | F04 | 42 games as command-line arg.  |  P  |   |
+| x   | F05 | Player keeping random dice at their turn | B (F02) | | 
+| x   | F06 | 1000 points means a player wins | B (F02) | | 
+| x   | F07 | Track all points per game in order to know which player won| B (F04) | |
+| x   | F08 | 3 skulls causes player to loose all points and round ends | B (F04) | | 
+| x   | F09 | percentage of wins for each player | B (F04) | | 
