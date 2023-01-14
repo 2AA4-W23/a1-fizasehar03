@@ -1,11 +1,11 @@
 package pk;
 
+import java.util.ArrayList;
+
 public class Player {
-    public Player player1;
-    public Player player2;
 
+    public static ArrayList<Faces> player1;
 
-
-
+    public  static ArrayList<Faces> player2;
 
 }
