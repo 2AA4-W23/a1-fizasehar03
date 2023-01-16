@@ -32,10 +32,10 @@ Remark: **We are assuming here you are using a _real_ shell (e.g., anything but 
 | :-:  |:-:  |---       | :-:     | :-:       | :-:       |
 | x   | F01 | Roll a dice |  D | 01/09/23 | 01/10/23 |
 | x   | F02 | Roll 8 dices | D | 01/11/23 | 01/11/23 |
-| x   | F03 | Two players in a game | D  |  01/12/23 |
-| x   | F04 | Player keeping random dice at their turn | D |01/13/23 |
-| x   | F05 | 100 points per diamond and gold faces from the dice kept aside | D | 01/13/23|
-| x   | F06 | Track all points per round in order to know which player won the round| D | 01/13/23 |
-| x   | F07 | 1000 points means a player wins | D | 01/15/23|
-| x   | F08 | 3 skulls causes that round ends | D |01/15/23 |
-| x   | F09 | percentage of wins for each player per round for that game | D |01/15/23 | 
+| x   | F03 | Two players in a game | D  |  01/12/23 |01/15/23|
+| x   | F04 | Player keeping random dice at their turn | D |01/13/23 |01/15/23|
+| x   | F05 | 100 points per diamond and gold faces from the dice kept aside | D | 01/13/23|01/15/23|
+| x   | F06 | Track all points per round in order to know which player won the round| D | 01/13/23 |01/15/23|
+| x   | F07 | 1000 points means a player wins | D | 01/15/23|01/15/23|
+| x   | F08 | 3 skulls causes that round ends | D |01/15/23 |01/15/23|
+| x   | F09 | percentage of wins for each player per round for that game | D |01/15/23 | 01/15/23|
