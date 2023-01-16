@@ -36,6 +36,6 @@ Remark: **We are assuming here you are using a _real_ shell (e.g., anything but 
 | x   | F04 | Player keeping random dice at their turn | D |01/13/23 |
 | x   | F05 | 100 points per diamond and gold faces from the dice kept aside | D | 01/13/23|
 | x   | F06 | Track all points per round in order to know which player won the round| D | 01/13/23 |
-| x   | F07 | 2000 points means a player wins | B (F07) | |
-| x   | F08 | 3 skulls causes that round ends | P | |
-| x   | F09 | percentage of wins for each player per round for that game | B (F07) | | 
+| x   | F07 | 1000 points means a player wins | D | 01/15/23|
+| x   | F08 | 3 skulls causes that round ends | D |01/15/23 |
+| x   | F09 | percentage of wins for each player per round for that game | D |01/15/23 | 

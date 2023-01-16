@@ -12,17 +12,12 @@ public class Dice {
         return Faces.values()[bag.nextInt(howManyFaces)];
     }
 
-
-    int games = 0;
-
-    int points = 0;
+    public int points = 0;
 
         public ArrayList<Faces> rolling_dice() {
 
             ArrayList<Faces> rolls = new ArrayList<>();
             int skulls = 0;
-            int dice_left = 0;
-            int rounds = 0;
             for (int i = 0; i < 8; i++) {
                 rolls.add(roll());
             }
@@ -45,7 +40,6 @@ public class Dice {
                 for (Faces j : rolls) {
                     if (j == Faces.SKULL) {
                         skulls++;
-                        dice_left--;
                     }
                 }
             }
@@ -56,9 +50,8 @@ public class Dice {
                 for (int k = 0; k < 8; k++) {
                     if (rolls.get(k) == Faces.DIAMOND || rolls.get(k) == Faces.GOLD) {
                         points += 100;
-                        return points;
                     }
                 }
-                return 0;
+                return points;
             }
     }
