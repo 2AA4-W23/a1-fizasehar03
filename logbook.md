@@ -8,4 +8,5 @@
 |
 | Jan 12th 2023 |                             Tried to work on code but was not able to sucessfuly finish                             |
 | Jan 13th 2023 |                                                                                                                     |
-| left baz      |                                                                                                                     |
+| Jan 15th 2023 |                                                                                                                     |
+| Jan 17th 2023 |                                     Worked on making code more neat and simple                                      | 16th 2023 |                                                         |

@@ -1,6 +1,7 @@
 package pk;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Dice {
 
@@ -16,17 +17,17 @@ public class Dice {
 
         public ArrayList<Faces> rolling_dice() {
 
+            Scanner s = new Scanner(System.in);
             ArrayList<Faces> rolls = new ArrayList<>();
             int skulls = 0;
             for (int i = 0; i < 8; i++) {
                 rolls.add(roll());
             }
-
-
             while (skulls < 3) {
                 skulls = 0;
+
                 for (int j = 0; j < 8; j++) {
-                    // generating the index using Math.random()
+
                     int index = (int) (Math.random() * rolls.size());
                     if (rolls.get(index) != Faces.SKULL) {
                         rolls.set(index, roll());
@@ -45,13 +46,4 @@ public class Dice {
             }
             return rolls;
         }
-
-            public int player_points(ArrayList < Faces > rolls) {
-                for (int k = 0; k < 8; k++) {
-                    if (rolls.get(k) == Faces.DIAMOND || rolls.get(k) == Faces.GOLD) {
-                        points += 100;
-                    }
-                }
-                return points;
-            }
     }
