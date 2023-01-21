@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class Dice {
 
-
-
     public Faces roll() {
         int howManyFaces = Faces.values().length;
         Random bag = new Random();
