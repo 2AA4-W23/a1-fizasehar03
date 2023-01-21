@@ -10,3 +10,4 @@
 | Jan 13th 2023 |                                                                                                                     |
 | Jan 15th 2023 |                                                                                                                     |
 | Jan 17th 2023 |                                     Worked on making code more neat and simple                                      | 16th 2023 |                                                         |
+| Jan 17th 2023 |                                     Worked on making code more neat and simple                                      | 16th 2023 |                                             

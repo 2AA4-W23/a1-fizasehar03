@@ -31,15 +31,21 @@ public class Player {
 
     int kind_count;
     public void add_points(ArrayList<Faces>rolls) {
+
+
+
         for (int k = 0; k < 8; k++) {
             if (rolls.get(k) == Faces.DIAMOND || rolls.get(k) == Faces.GOLD) {
                 points += 100;
+            }//figure this out
+            if(skulls==3){
+                points=0;
             }
-            for(int p = k+1; p<8;p++){
-                if(rolls.get(k)==rolls.get(p)){
+            for(int p = k+1; p<8;p++) {
+                if (rolls.get(k) == rolls.get(p)) {
                     kind_count++;
-
                 }
+            }
             }if(kind_count==3){
                 points+=300;
             }if(kind_count==3){
@@ -53,16 +59,12 @@ public class Player {
             if(kind_count==3){
                 points+=800;
             }
-
         }
-    }
 
     public void set_points(){
         points=0;
     }
-
     public double get_points(){
         return points;
-
     }
 }

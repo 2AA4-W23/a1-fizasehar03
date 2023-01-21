@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class PiratenKarpen {
-
     public static void main(String[] args) {
         System.out.println("Welcome to Piraten Karpen Simulator!");
         Dice myDice = new Dice();
@@ -16,13 +15,8 @@ public class PiratenKarpen {
         Player player2 = new Player();
 
         int draw = 0;
-
             for (int games = 1; games < 43; games++) {
-
-
                 while (player1.get_points() < 1000 && player2.get_points() < 1000) {
-
-
                     System.out.print("Player1's Dices are: ");
                     Player.player1 = myDice.rolling_dice();
                     player1.add_points(Player.player1);
@@ -34,7 +28,6 @@ public class PiratenKarpen {
                     System.out.println("\n" + "player 2's points are " + player2.get_points() + "\n");
 
                 }
-
                 if (player1.get_points() >= 1000 && player2.get_points() >= 1000) {
                     draw++;//reroll try
                 } else if (player1.get_points() >= 1000 && player1.get_points() > player2.get_points()) {
