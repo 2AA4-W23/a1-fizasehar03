@@ -1,35 +1,67 @@
-import pk.*;
+import pk.Dice;
+import pk.Player;
+import pk.Cards;
 
-import java.sql.SQLOutput;
-import java.util.Collections;
-import java.util.Random;
-import java.lang.Math;
-import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 
+
 public class PiratenKarpen {
+
+    private static final Logger log = LogManager.getLogger(PiratenKarpen.class);
+
+
     public static void main(String[] args) {
         System.out.println("Welcome to Piraten Karpen Simulator!");
         Dice myDice = new Dice();
+
+
+        Cards new_card = null;
+
+        ArrayList<Cards> cards = new ArrayList<>();
+
+        new_card.making_cards(cards);
+        System.out.println(Cards.draw_cards(cards).getType());
         Player player1 = new Player();
         Player player2 = new Player();
 
-        int draw = 0;
+
+
+         int draw = 0;
             for (int games = 1; games < 43; games++) {
                 while (player1.get_points() < 1000 && player2.get_points() < 1000) {
                     System.out.print("Player1's Dices are: ");
-                    Player.player1 = myDice.rolling_dice();
+
+
+                    if (args[0] =="random"){
+                        Player.player1 = myDice.rolling_dice();
+
+                    }else{
+                        Player.player1 = myDice.rolling_combos();
+                    }
+
                     player1.add_points(Player.player1);
 
                     System.out.println("\n" + "player 1's points are " + player1.get_points() + "\n");
                     System.out.print("Players2's dices are:");
-                    Player.player2 = myDice.rolling_dice();
+
+
+                    if (args[1] =="random"){
+                        Player.player2 = myDice.rolling_dice();
+                    }
+                    else{
+                        Player.player2 = myDice.rolling_combos();
+
+                    }
+
                     player2.add_points(Player.player2);
                     System.out.println("\n" + "player 2's points are " + player2.get_points() + "\n");
 
                 }
                 if (player1.get_points() >= 1000 && player2.get_points() >= 1000) {
-                    draw++;//reroll try
+                    draw++;
                 } else if (player1.get_points() >= 1000 && player1.get_points() > player2.get_points()) {
                     player1.add_win();
                 } else {
@@ -55,5 +87,13 @@ public class PiratenKarpen {
             System.out.println("The percentage of wins of player 2 is : " + Percentage_p2);
             System.out.println("The percentage of draw is: " + percentage_draw);
         }
+
+
+
+
+
+
     }
+
+
 }
