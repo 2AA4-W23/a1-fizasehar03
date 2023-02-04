@@ -22,7 +22,7 @@ public class ComboDice extends Dice {
             }
         }
 
-        while (max_combos < 3) {
+        while (max_combos < 4) {
             for (int j = 1; j < 8; j++) {
                 if (rolls.get(j) != Faces.SKULL && combo_num != rolls.get(j)) {
                     if (cardFaces == null || !cardFaces.contains(cardFaces)) {

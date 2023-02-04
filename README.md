@@ -36,7 +36,8 @@ Remark: **We are assuming here you are using a _real_ shell (e.g., anything but 
 | x   | F04 | Player rolling random dice at their turn or try to get a combo | P |01/20/23 | 01/22/23|
 | x   | F05 | 100 points per diamond and gold faces from the dice kept aside and score points for 3-of a king, 4 of a kind....8 of a kind | D | 01/20/23| 01/20/23|
 | x   | F06 | Track all points per round in order to know which player won the round| D | 01/13/23 |01/15/23|
-| x   | F06 | Add Sea battle cards, effects each round and track points| D | 01/13/23 |01/28/23|
+| x   | F06 | Add Sea battle cards, effects each round and track points| D | 01/25/23 |01/28/23|
+| x   | F06 | Add monkey cards, effects each round and track points| D | 01/25/23 |01/30/23|
 | x   | F07 | 1000 points means a player wins | D | 01/15/23|01/15/23|
 | x   | F08 | 3 skulls causes that round ends | D |01/15/23 |01/15/23|
 | x   | F09 | percentage of wins for each player per round for that game | D |01/15/23 | 01/15/23|

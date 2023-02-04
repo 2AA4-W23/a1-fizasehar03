@@ -45,6 +45,8 @@ public class Card {
         Random card_draw = new Random();
         int index = card_draw.nextInt(cards.size());
         return cards.get(index);
+
+
     }
 
     public ArrayList<Faces> getFaces() {
@@ -67,11 +69,15 @@ public class Card {
                 }
             }
         }
+
         return -points;
     }
 
     public String toString() {
         return type + " card, " + numSwords + " swords, " + points + " points";
+    }
+    public String getType(){
+        return type;
     }
 }
 
