@@ -45,10 +45,7 @@ public class Card {
         Random card_draw = new Random();
         int index = card_draw.nextInt(cards.size());
         return cards.get(index);
-
-
     }
-
     public ArrayList<Faces> getFaces() {
         return faces;
     }

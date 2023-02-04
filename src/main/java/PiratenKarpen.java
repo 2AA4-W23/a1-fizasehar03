@@ -13,6 +13,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
+
+
+//* to enter trace mode please use trace as second command line arg*/
+
 public class PiratenKarpen {
 
 
@@ -26,7 +30,7 @@ public class PiratenKarpen {
         if(args[2].equals("trace")){
             Configurator.setAllLevels(log.getName(), Level.TRACE);
         }
-        log.trace("Welcome to Piraten Karpen Simulator!");
+        log.trace("Welcome to Piraten Karpen Simulator!, First command line arg for first players start, second for second player and 3rd if you want to use trace mode! Enjoy");
 
         ArrayList<Card> cards = Card.constructCards();
 

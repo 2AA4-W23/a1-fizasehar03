@@ -100,12 +100,6 @@ public class Player {
         }
         points += card.getPointsForTurn(rolls);
     }
-
-
-
-
-
-
     public void playTurn() {
         Card card = Card.drawCard(cards);
         ArrayList<Faces> turnFaces = dice.rollDice(card.getFaces());
@@ -121,11 +115,4 @@ public class Player {
         }
         points = 0;
     }
-
-
-
-
-
-
-
 }
