@@ -13,7 +13,6 @@ public class ComboDice extends Dice {
         for (int i = 0; i < 8; i++) {
             rolls.add(roll());
         }
-
         for (Faces i : rolls) {
             int type = Collections.frequency(rolls, i);
             if (type > max_combos) {
@@ -21,7 +20,6 @@ public class ComboDice extends Dice {
                 combo_num = i;
             }
         }
-
         while (max_combos < 4) {
             for (int j = 1; j < 8; j++) {
                 if (rolls.get(j) != Faces.SKULL && combo_num != rolls.get(j)) {
