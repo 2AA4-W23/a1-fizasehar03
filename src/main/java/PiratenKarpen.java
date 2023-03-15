@@ -7,8 +7,13 @@ import pk.Player;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.lang.module.Configuration;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Scanner;
+
+
+
 
 //* to enter trace mode please use trace as second command line arg*/
 
